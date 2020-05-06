@@ -1,0 +1,6 @@
+para o bot n crashar com o comando dele mesmo use isso!!
+
+
+@client.event
+async def on_message(texto):
+    if (texto.author.id == '707426441557442621'): return
